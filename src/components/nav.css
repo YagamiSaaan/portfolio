@@ -25,7 +25,12 @@
 
 .logo img{
     height: 40px;
-} 
+    filter: drop-shadow(0 0 10px #0000006d);
+}
+
+.logo a{
+    color: white;
+}
 
 .Navbar{
     display: flex;
@@ -44,6 +49,13 @@ li{
     list-style: none;
     font-size: large;
     color: aliceblue;
+}
+
+li::before{
+    position: relative;
+    height: 2px;
+    width: 10px;
+    background-color: #fff;
 }
 
 li:hover{

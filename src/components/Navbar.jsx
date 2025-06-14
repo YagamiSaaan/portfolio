@@ -6,8 +6,8 @@ const Navbar = () => {
   return (
     <nav className="navCont">
       <div className="logo">
-        <img src="./vite.svg" alt="" />
-        <h2>YagamiSaan</h2>
+        <a href="/"><img src="./thalha.png" alt="" /></a>
+        <a href=""><h2>YagaSalami</h2></a>
       </div>
       <div className="left">
         <ul className="Navbar">
