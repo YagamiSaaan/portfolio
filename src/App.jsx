@@ -2,6 +2,7 @@ import './App.css'
 import Typed from 'typed.js';
 import React from 'react';
 import Squares from './assets/Squares/Squares';
+import GlareHover from './assets/GlareHover/GlareHover';
 
 function App() {
 
@@ -39,7 +40,11 @@ function App() {
           
         </div>
         <div className="rightSection">
-          <img className='fP' src="../firstPic.png" alt="" />
+          <GlareHover
+            width='80%'
+          >
+            <img className='fP' src="../firstPic.png" alt="" />
+          </GlareHover>
         </div>
       </div>
     </main>
