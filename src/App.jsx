@@ -1,7 +1,6 @@
 import './App.css'
 import Typed from 'typed.js';
 import React from 'react';
-import Squares from './assets/Squares/Squares';
 import GlareHover from './assets/GlareHover/GlareHover';
 
 function App() {
