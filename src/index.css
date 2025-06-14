@@ -1,7 +1,24 @@
 *{
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
+
+html {
+  overflow-x: hidden;
+  max-width: 100vw;
+}
+
 body{
-    background-color: #1f1e2e;
+  background:url(../public/bg.gif);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:cover;
+  overflow-x: hidden;
+  max-width: 100vw;
+}
+
+#root {
+  overflow-x: hidden;
+  max-width: 100vw;
 }

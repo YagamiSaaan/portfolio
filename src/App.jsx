@@ -9,9 +9,15 @@ function App() {
 
   React.useEffect(() => {
     const typed = new Typed(el.current, {
-      strings: ['I\'m. YagaSalami', 'I\'m a <i>Minecraft Dev</i>','I\'m a <i>Discord Server Builder</i>'],
+      strings: ['I\'m YagaSalami', 'I\'m a <i>Minecraft Dev</i>','I\'m a <i>Discord Server Builder</i>'],
       typeSpeed: 50,
-      loop: true
+      backSpeed: 30,
+      backDelay: 2000,
+      loop: true,
+      showCursor: false,
+      cursorChar: '|',
+      autoInsertCss: true,
+      contentType: 'html'
     });
 
     return () => {
@@ -34,9 +40,7 @@ function App() {
               <button className='ContcBtn'>View my work</button>
               <button className='btn'>Contact Me</button>
             </div>
-          </div>
-          
-          
+          </div>  
         </div>
         <div className="rightSection">
           <GlareHover
@@ -46,6 +50,9 @@ function App() {
           </GlareHover>
         </div>
       </div>
+
+      <div className="aboutMe" id="aboutMe"></div>
+
     </main>
     </>
   )
